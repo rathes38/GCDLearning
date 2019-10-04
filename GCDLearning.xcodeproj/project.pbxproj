@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2A60C47423479122004D0937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60C47323479122004D0937 /* AppDelegate.swift */; };
-		2A60C47623479122004D0937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60C47523479122004D0937 /* ViewController.swift */; };
 		2A60C47923479122004D0937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60C47723479122004D0937 /* Main.storyboard */; };
 		2A60C47B23479124004D0937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A60C47A23479124004D0937 /* Assets.xcassets */; };
 		2A60C47E23479124004D0937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60C47C23479124004D0937 /* LaunchScreen.storyboard */; };
 		2A60C48923479124004D0937 /* GCDLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60C48823479124004D0937 /* GCDLearningTests.swift */; };
+		2A60C49423479204004D0937 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60C49323479204004D0937 /* HomeViewController.swift */; };
+		2A60C496234793F4004D0937 /* DGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60C495234793F4004D0937 /* DGroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		2A60C47023479122004D0937 /* GCDLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A60C47323479122004D0937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A60C47523479122004D0937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A60C47823479122004D0937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A60C47A23479124004D0937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A60C47D23479124004D0937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		2A60C48423479124004D0937 /* GCDLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A60C48823479124004D0937 /* GCDLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDLearningTests.swift; sourceTree = "<group>"; };
 		2A60C48A23479124004D0937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A60C49323479204004D0937 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A60C495234793F4004D0937 /* DGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				2A60C47323479122004D0937 /* AppDelegate.swift */,
-				2A60C47523479122004D0937 /* ViewController.swift */,
+				2A60C49323479204004D0937 /* HomeViewController.swift */,
+				2A60C495234793F4004D0937 /* DGroupViewController.swift */,
 				2A60C47723479122004D0937 /* Main.storyboard */,
 				2A60C47A23479124004D0937 /* Assets.xcassets */,
 				2A60C47C23479124004D0937 /* LaunchScreen.storyboard */,
@@ -197,8 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A60C47623479122004D0937 /* ViewController.swift in Sources */,
+				2A60C496234793F4004D0937 /* DGroupViewController.swift in Sources */,
 				2A60C47423479122004D0937 /* AppDelegate.swift in Sources */,
+				2A60C49423479204004D0937 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
